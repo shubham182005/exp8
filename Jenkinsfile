@@ -3,7 +3,7 @@ pipeline {
 					agent any
 					
 					tools {
-						maven "Maven_Home"
+						maven "MAVEN_HOME"
 					}
 					stages {
 						stage('Stage 1 - Checkout Code') {
